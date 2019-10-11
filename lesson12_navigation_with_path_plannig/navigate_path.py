@@ -190,7 +190,7 @@ def awarenessOn(channel):
 def navigate(goalX,goalY,robotArUco, worldFrame, mapFile,step,robot_size,N_KNN,MAX_EDGE_LEN,show_path):
 
     exporter = ZipkinExporter(
-    service_name="Robot.Pepper.Gateway",
+    service_name="Robot.Controller",
     host_name="10.10.2.13",
     port="30200",
     transport=AsyncTransport,
