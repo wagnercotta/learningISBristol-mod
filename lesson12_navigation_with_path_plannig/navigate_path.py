@@ -1,5 +1,5 @@
 
-from is_wire.core import Channel, Message, Subscription, AsyncTransport
+from is_wire.core import Channel, Message, Subscription, AsyncTransport, Tracer
 from is_msgs.common_pb2 import Position, Pose
 from is_msgs.camera_pb2 import FrameTransformation
 from is_msgs.robot_pb2 import RobotConfig
